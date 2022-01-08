@@ -1,0 +1,61 @@
+﻿           #header {
+			     background-image:url('images/NCTPScopy11 copy.jpg');
+			     width: 100%;
+                height: auto;
+  				box-shadow: 4px 4px 4px grey;
+				clear:both;
+				
+			}
+
+			#top-nav{
+			box-shadow: 5px 10px 10px grey;
+			clear:both;
+			}
+									
+						
+			#col1 {
+			float:left;
+			width:22%;
+			height:600px;
+			background-color:wheat;
+			margin-bottom:10px;
+			margin-top:5px;
+			box-shadow: 5px 10px 10px grey;
+			column-gap:normal;
+			}
+		
+			#col2 {
+			float:left;
+			width:58%;
+			height:600px;
+			background :#FFE6FF;
+			column-gap:normal;			
+			margin-top:5px;
+			box-shadow: 5px 10px 10px grey;
+			
+			}
+			
+			#col3 {
+			float:right;			
+			width:20%;
+			height:600px;
+			background :wheat;
+			margin-top:5px;
+			box-shadow: 5px 10px 10px grey;
+			
+			}
+			.column {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}			
+			#footer {
+			background : #2d2d34;
+			height:20px;
+			font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+			font-size:small;
+			text-align:center;
+			color:white;
+	  		padding-top:5px;
+	  		clear:both;
+			} 

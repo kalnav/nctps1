@@ -1,0 +1,152 @@
+﻿
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="home.css"/>
+<link rel="stylesheet" type="text/css" href="slideshow.css"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="ajxmenu.css" type="text/css">
+<script src="ajxmenu.js" type="text/javascript"></script>
+</head><html><title>NCTPS1 INTRANET</title><head>
+<img src="images/NCTPScopy11 copy.jpg" alt="header" height="auto" width="100%"/></head>
+<div class="AJXCSSMenuaYITABB"><!-- AJXFILE:ajxmenu.css -->
+<ul>
+ <li><a href="home.html" target="_parent">HOME</a></li>
+ <li><a class="ajxsub" href="#">DAILY&nbsp;REPORTS</a>
+  <ul>
+   <li><a href="drsheet/drsheet.html" target="_parent">DR SHEET</a></li>
+   <li><a href="drsheet/pendingpts.html" target="_self">PENDING POINTS</a></li>
+   <li><a href="drsheet/Plant%20status.pdf">PLANTSTATUS</a></li>
+  </ul>
+ </li>
+ <li><a href="#">GALLERY</a></li>
+ <li><a class="ajxsub" href="#">GENERATION</a>
+  <ul>
+   <li><a href="#" target="_self">OVERHAUL</a></li>
+   <li><a href="#" target="_self">BOILER LISCENCE</a></li>
+   <li><a href="#">OUTAGES</a></li>
+  </ul>
+ </li>
+ <li><a href="downloads/downloads.html" target="_self">DOWNLOADS</a></li>
+ <li><a class="ajxsub" href="#">ISO</a>
+  <ul>
+   <li><a href="#" target="_self">OBJECTIVES</a></li>
+   <li><a href="#" target="_self">POLICIES</a></li>
+   <li><a href="#" target="_self">CERTIFICATES</a></li>
+  </ul>
+ </li>
+ <li><a href="#" target="_self">IMS</a></li>
+ <li><a href="management/index.html" target="_self">MANAGEMENT</a></li>
+ <li><a class="ajxsub" href="#">TELEPHONE&nbsp;NOS</a>
+  <ul>
+   <li><a href="telephone%20nos/intercom.html" target="_self">INTERCOM</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+	<base target="_self">
+	<meta charset="utf-8">
+	<div id="mainContent">
+	<div id = "top-nav"> 
+	<div class="slideshow-container">
+    <div class="carousel-inner" role="listbox">
+<style>.carousel-inner >.mySlides > img { width:100%; height:300px; } </style>
+<div class="mySlides fade">
+  <div class="numbertext">1 /10</div>
+  <img src="images/Image1.jpg" width="100%">
+  <div class="text">Caption One</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="images/image2.jpg" width="100%">
+  <div class="text">Caption Two</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="images/image3.jpg" width="100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="images/image4.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="images/IMG_20181114_161450.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 /10</div>
+  <img src="images/IMG_20181114_163433.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="images/IMG_20181119_161339.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="images/IMG_20181119_161347.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="images/kalai4.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10 /10</div>
+  <img src="images/kali3.jpg" width="100%">
+  <div class="text">Caption four</div>
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display ="none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script> 
+
+<div id="col1" class="column"></div>
+<div id="col2" class="column"></div>
+<div id="col3" class="column"></div>
+	        
+<div id="footer" >Copyright:CMP/NCTPS-I All Rights Reserved</div>
+<style>
+/body>
+/html>
